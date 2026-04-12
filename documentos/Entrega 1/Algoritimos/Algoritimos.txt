@@ -1,0 +1,238 @@
+using System;
+using System.Threading;
+
+class LaboEscape
+{
+    static void Digitar(string texto)
+    {
+        foreach (char c in texto) { Console.Write(c); Thread.Sleep(30); }
+        Console.WriteLine();
+    }
+
+    static void Main()
+    {
+        int energia = 100;
+        int pontos  = 0;
+        bool jogando = true;
+
+        Console.Clear();
+        Digitar(">> Conectando...");
+        Thread.Sleep(800);
+        Digitar(">> ...");
+        Thread.Sleep(600);
+        Digitar(">> voce esta acordado.");
+        Thread.Sleep(500);
+        Digitar(">> bom.");
+        Thread.Sleep(700);
+        Digitar(">> nao gostamos quando eles dormem demais.");
+        Thread.Sleep(400);
+        Digitar(">> tres perguntas. responda certo e a porta abre.");
+        Digitar(">> erre demais e voce fica aqui.");
+        Digitar(">> conosco.\n");
+        Thread.Sleep(600);
+
+        // === FASE 1 ===
+        Digitar("[ ARQUIVO I - O FARAO DORME ]");
+        Thread.Sleep(300);
+        Digitar("A gaveta da mesa abre devagar. Voce nao tocou nela.");
+        Digitar("Dentro tem um papiro amarelado. Cheira a terra molhada e coisa velha.");
+        Digitar("No canto, alguem escreveu a lapis: 'nao abra. eu avisei.'\n");
+        Thread.Sleep(400);
+
+        while (jogando)
+        {
+            Digitar(">> Quando o tumulo de Tutankamon foi aberto em 1922,");
+            Digitar(">> mais de 20 pessoas morreram nos anos seguintes.");
+            Digitar(">> Lord Carnarvon morreu meses depois. De uma picada de mosquito, dizem.");
+            Digitar(">> Conspiracionistas falam de uma inscricao que foi apagada dos registros.");
+            Digitar(">> O que ela dizia?");
+            Console.WriteLine("   [1] A morte tocara com suas asas quem perturbar o repouso do farao.");
+            Console.WriteLine("   [2] Este lugar pertence aos deuses. Humanos nao sao bem-vindos.");
+            Console.WriteLine("   [3] Aquele que entrar aqui sera consumido pelo fogo eterno.");
+            Console.WriteLine("   [0] Ir embora");
+            Console.Write(">> ");
+            string r = Console.ReadLine();
+
+            if (r == "0") { jogando = false; break; }
+            else if (r == "1")
+            {
+                pontos += 10;
+                Digitar("\n>> o papiro rasga sozinho ao meio.");
+                Thread.Sleep(400);
+                Digitar(">> algo suspirou atras de voce.");
+                Digitar(">> primeiro arquivo liberado. +10\n");
+                break;
+            }
+            else { energia -= 25; Digitar(">> errado."); Thread.Sleep(300); Digitar(">> ele nao gostou disso."); Digitar(">> Energia: " + energia + "%"); }
+
+            if (energia <= 0) { jogando = false; break; }
+        }
+
+        // === FASE 2 ===
+        if (jogando && energia > 0)
+        {
+            Thread.Sleep(600);
+            Digitar("[ ARQUIVO II - DEBAIXO DO GELO ]");
+            Thread.Sleep(300);
+            Digitar("O monitor liga. Nenhum cabo conectado. Nenhum botao pressionado.");
+            Digitar("A tela mostra um mapa. Mas o continente do sul foi substituido");
+            Digitar("por uma unica palavra piscando em vermelho: N A O.\n");
+            Thread.Sleep(400);
+
+            while (jogando)
+            {
+                Digitar(">> Existe um tratado assinado em 1959 por doze nacoes.");
+                Digitar(">> Ele proibe qualquer atividade militar e qualquer reivindicacao de territorio");
+                Digitar(">> em um continente inteiro. Nenhum outro lugar no planeta tem isso.");
+                Digitar(">> Terraplanistas perguntam: por que proteger tanto um lugar vazio?");
+                Digitar(">> O que eles acreditam estar escondido la?");
+                Console.WriteLine("   [1] Uma civilizacao subterranea ainda viva");
+                Console.WriteLine("   [2] A borda real da Terra, disfarçada de continente");
+                Console.WriteLine("   [3] A primeira base extraterrestre do planeta");
+                Console.WriteLine("   [0] Ir embora");
+                Console.Write(">> ");
+                string r = Console.ReadLine();
+
+                if (r == "0") { jogando = false; break; }
+                else if (r == "2")
+                {
+                    pontos += 10;
+                    Digitar("\n>> o mapa some da tela.");
+                    Thread.Sleep(400);
+                    Digitar(">> como se alguem do outro lado tivesse desligado.");
+                    Digitar(">> segundo arquivo liberado. +10\n");
+                    break;
+                }
+                else { energia -= 25; Digitar(">> errado."); Thread.Sleep(300); Digitar(">> a luz do monitor piscou tres vezes."); Digitar(">> Energia: " + energia + "%"); }
+
+                if (energia <= 0) { jogando = false; break; }
+            }
+        }
+
+        // === FASE 3 ===
+        if (jogando && energia > 0)
+        {
+            Thread.Sleep(600);
+            Digitar("[ ARQUIVO III - DESDE O INICIO ]");
+            Thread.Sleep(300);
+            Digitar("Voce olha pro quadro branco. Tem algo gravado atras dele.");
+            Digitar("Voce empurra o quadro de lado. Na parede: um triangulo. Um olho dentro.");
+            Digitar("Fresco. Feito hoje. A tinta ainda nao secou.\n");
+            Thread.Sleep(400);
+
+            while (jogando)
+            {
+                Digitar(">> Na nota de 1 dolar americana ha uma piramide com um olho no topo.");
+                Digitar(">> Abaixo: 'Novus Ordo Seclorum'. Uma frase em latim que quase ninguem le.");
+                Digitar(">> Conspiracionistas dizem que os Illuminati a colocaram la as claras,");
+                Digitar(">> porque sabiam que ninguem ia perguntar o que significa.");
+                Digitar(">> O que significa?");
+                Console.WriteLine("   [1] O poder pertence aos que permanecem nas sombras");
+                Console.WriteLine("   [2] O olho que tudo ve jamais dorme");
+                Console.WriteLine("   [3] Nova ordem dos seculos");
+                Console.WriteLine("   [0] Ir embora");
+                Console.Write(">> ");
+                string r = Console.ReadLine();
+
+                if (r == "0") { jogando = false; break; }
+                else if (r == "3")
+                {
+                    pontos += 10;
+                    Digitar("\n>> o olho na parede pisca.");
+                    Thread.Sleep(500);
+                    Digitar(">> uma unica vez.");
+                    Digitar(">> terceiro arquivo liberado. +10\n");
+                    break;
+                }
+                else { energia -= 25; Digitar(">> errado."); Thread.Sleep(300); Digitar(">> o olho continua aberto."); Digitar(">> Energia: " + energia + "%"); }
+
+                if (energia <= 0) { jogando = false; break; }
+            }
+        }
+
+        // === FIM ===
+        Thread.Sleep(800);
+        Console.WriteLine("\n>> ---");
+        if (energia <= 0)
+        {
+            Digitar(">> ...");
+            Thread.Sleep(1000);
+            Digitar(">> ah.");
+            Thread.Sleep(800);
+            Digitar(">> as luzes apagam.");
+            Thread.Sleep(600);
+            Digitar(">> nao todas. so as que iluminavam voce.");
+            Thread.Sleep(900);
+            Digitar(">> voce tenta se levantar.");
+            Thread.Sleep(500);
+            Digitar(">> nao consegue.");
+            Thread.Sleep(700);
+            Digitar(">> tem algo segurando seus pes.");
+            Thread.Sleep(1000);
+            Digitar(">> voce olha pra baixo.");
+            Thread.Sleep(800);
+            Digitar(">> nao tem nada.");
+            Thread.Sleep(600);
+            Digitar(">> mas ainda assim voce nao consegue se mover.");
+            Thread.Sleep(900);
+            Digitar(">> de manha, o seguranca abre a porta.");
+            Digitar(">> voce esta sentado no canto. olhos abertos. sem piscar.");
+            Thread.Sleep(500);
+            Digitar(">> ele grita seu nome tres vezes.");
+            Thread.Sleep(400);
+            Digitar(">> voce nao ouve.");
+            Thread.Sleep(700);
+            Digitar(">> voce esta ouvindo outra coisa.");
+            Thread.Sleep(500);
+            Digitar(">> uma voz que so voce escuta agora.");
+            Thread.Sleep(400);
+            Digitar(">> ela nao para.");
+            Thread.Sleep(300);
+            Digitar(">> nunca mais vai parar.");
+        }
+        else if (!jogando)
+        {
+            Digitar(">> ...");
+            Thread.Sleep(800);
+            Digitar(">> tudo bem.");
+            Thread.Sleep(600);
+            Digitar(">> a porta abre.");
+            Thread.Sleep(500);
+            Digitar(">> voce vai embora. o corredor esta vazio. as luzes funcionam normal.");
+            Thread.Sleep(400);
+            Digitar(">> tudo parece normal.");
+            Thread.Sleep(1200);
+            Digitar(">> na noite seguinte voce nao consegue dormir.");
+            Digitar(">> na noite depois tambem nao.");
+            Thread.Sleep(500);
+            Digitar(">> na terceira noite voce acorda as 3h17 sem saber por que.");
+            Digitar(">> tem algo no canto do quarto.");
+            Thread.Sleep(900);
+            Digitar(">> voce nao consegue ver direito. esta escuro.");
+            Digitar(">> mas da pra ouvir.");
+            Thread.Sleep(600);
+            Digitar(">> esta respirando.");
+            Thread.Sleep(1200);
+            Digitar(">> nos dissemos que voce ficaria conosco.");
+            Thread.Sleep(500);
+            Digitar(">> so nao dissemos onde.");
+        }
+        else
+        {
+            Digitar(">> tres arquivos. todos abertos.");
+            Thread.Sleep(600);
+            Digitar(">> a porta destrava com um clique pesado.");
+            Thread.Sleep(400);
+            Digitar(">> do lado de fora: um corredor. escuro. longo.");
+            Thread.Sleep(300);
+            Digitar(">> no fim dele, uma luz.");
+            Thread.Sleep(500);
+            Digitar(">> ou algo que se parece com uma.");
+            Digitar(">> pontos: " + pontos + " | energia: " + energia + "%");
+            Thread.Sleep(400);
+            Digitar(">> corra. e nao olhe pra tras.");
+            Digitar(">> a gente ja sabe onde voce mora.");
+        }
+        Console.WriteLine(">> ---");
+    }
+}
