@@ -38,19 +38,25 @@ Vide tutoriais do PI.
 |-->documentos
 
  |-->Entrega 1
+ 
   |-->Cálculo
+  
   |-->Lógica
+  
   |-->Projeto Interdisciplinar
+  
   |-->Ética
 
 |-->imagens
 
 |-->src
+
  |-->Entrega 1
 
    |-->Backend
 
   |-->Frontend
+  
    | ProjetoPI
 
 ## 💻 Configuração para Desenvolvimento
