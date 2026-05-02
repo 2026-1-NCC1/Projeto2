@@ -26,12 +26,8 @@ Vide tutoriais do PI.
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+Dungeon Chef: Sabores do Caos é um jogo de gestão de restaurante ambientado numa dungeon medieval fantástica, onde o jogador controla um jovem cozinheiro que precisa atender uma clientela caótica — goblins impacientes, dragões letais, magos exigentes e cavaleiros problemáticos. O gameplay gira em torno de três pilares: gerenciar recursos e tempo, combinar ingredientes mágicos para criar pratos com efeitos especiais, e tomar decisões de risco com ingredientes instáveis que podem causar consequências imprevisíveis em cadeia por todo o restaurante.
+Esta primeira versão consiste em ter o básico funcional do jogo: o ciclo central de chegada de clientes, análise de perfil, preparação de pratos e entrega com consequências dinâmicas. O ecossistema inicial contempla os quatro tipos de clientes, o sistema de alquimia gastronômica com buffs e efeitos colaterais, e o Motor do Caos com suas três zonas (verde, amarela e vermelha). Expansões futuras planejadas incluem novas áreas da dungeon, árvore de habilidades RPG, boss battles gastronômicas e modos cooperativo e competitivo — mas nesta etapa o foco é entregar uma experiência sólida e rejogável com o conteúdo central.
 
 ## 🛠 Estrutura de pastas
 
