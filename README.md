@@ -31,59 +31,27 @@ Vide tutoriais do PI.
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+-Raiz
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+|
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+|-->documentos
 
-Há também 4 pastas que seguem da seguinte forma:
+ |-->Entrega 1
+  |-->Cálculo
+  |-->Lógica
+  |-->Projeto Interdisciplinar
+  |-->Ética
 
-<b>documentos</b>: Toda a documentação estará nesta pasta.
+|-->imagens
 
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+|-->src
+ |-->Entrega 1
 
-<b>imagens</b>: Imagens do sistema
+   |-->Backend
 
-<b>src</b>: Pasta que contém o código fonte.
-
-## 🛠 Instalação
-
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+  |-->Frontend
+   | ProjetoPI
 
 ## 💻 Configuração para Desenvolvimento
 
