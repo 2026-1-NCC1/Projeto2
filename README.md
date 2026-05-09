@@ -10,7 +10,7 @@
 
 ## Nome do Grupo:OverHeat
 
-## Integrantes: <a href="https://br.linkedin.com/in/leonardo-carvalho-339b37408">Leonardo Neres De Carvalho</a>, <a href="https://www.linkedin.com/in/victorbarq/">Miguel Sanchez Batista</a>, <a href="https://www.linkedin.com/in/victorbarq/">Rafael Agustinho Barbosa</a>, <a href="[https://www.linkedin.com/in/victorbarq/](https://www.linkedin.com/in/rafael-barbosa-746489409)">Tiago Urias</a>
+## Integrantes: <a href="https://br.linkedin.com/in/leonardo-carvalho-339b37408">Leonardo Neres De Carvalho</a>, <a href="https://www.linkedin.com/in/miguel-sanchez-batista-1176883a8/">Miguel Sanchez Batista</a>, <a href="https://www.linkedin.com/in/rafael-barbosa-746489409">Rafael Agustinho Barbosa</a>, <a href="https://www.linkedin.com/in/tiago-urias-8a6b0a277/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6FsKKOffTemQJIhGnTfAtw%3D%3D">Tiago Urias</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Francisco de Souza Escobar</a>, <a href="https://www.linkedin.com/in/victorbarq/">Renata Muniz Do Nascimento</a>, <a href="https://www.linkedin.com/in/victorbarq/">Joao Francisco Trencher Martins</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/victorbarq/">Gilles Pedroza Leite</a>
 
