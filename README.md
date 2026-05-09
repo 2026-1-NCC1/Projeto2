@@ -64,9 +64,23 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 •Unity (v. 6000.0.38f1)
 ```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
+1- Abra o Unity Hub no seu computador.
+
+2- Na tela inicial, clique na opção “Open” para adicionar um projeto já existente.
+
+3- Localize e selecione a pasta principal do projeto Unity.
+
+4- Aguarde o carregamento completo da engine e dos arquivos do projeto. Dependendo do tamanho do projeto, isso pode levar alguns minutos.
+
+5-Verifique se não existem erros no console da Unity antes de iniciar a execução.
+
+6-Caso o projeto utilize uma versão específica da engine, confirme se a versão correta da Unity está instalada no Unity Hub.
+
+7-Após o carregamento, abra a cena principal do jogo pelo painel Project ou pela pasta Scenes.
+
+8-Clique no botão “Play”, localizado na parte superior central da Unity, para iniciar a execução do projeto em modo de teste.
+
+9-Para parar a execução, clique novamente no botão “Play”.
 ```
 
 ## 📋 Licença/License
