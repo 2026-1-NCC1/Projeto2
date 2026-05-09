@@ -63,7 +63,7 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 •<a href="https://cloud.unity.com/home/organizations/4674173380527/onboarding/post-download?locale=pt&code=5S7ki42qJUkvbEo9v0csZA004f&locale=pt-BR&session_state=3a64f78759cbe8c4f22347e7db3e5b8e83c9c7eaebdf762cfa35ce7db4a5c85c.1boXdL_97Buw2XVp3TRrzg003f">UnityHub</a>
 
 •Unity (v. 6000.0.38f1)
-```sh
+```oi
 1- Abra o Unity Hub no seu computador.
 
 2- Na tela inicial, clique na opção “Open” para adicionar um projeto já existente.
