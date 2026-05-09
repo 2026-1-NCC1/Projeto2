@@ -58,8 +58,6 @@
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 •<a href="https://cloud.unity.com/home/organizations/4674173380527/onboarding/post-download?locale=pt&code=5S7ki42qJUkvbEo9v0csZA004f&locale=pt-BR&session_state=3a64f78759cbe8c4f22347e7db3e5b8e83c9c7eaebdf762cfa35ce7db4a5c85c.1boXdL_97Buw2XVp3TRrzg003f">UnityHub</a>
