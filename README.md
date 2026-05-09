@@ -76,8 +76,8 @@ Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licen�
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
+1. <https://github.com/fecaphub/Template_PI>
+2. <https://www.youtube.com/watch?v=yIaAE9bLxXI>
 3. <https://chooser-beta.creativecommons.org/>
 4. <https://freesound.org/>
 5. <https://www.toptal.com/developers/gitignore>
