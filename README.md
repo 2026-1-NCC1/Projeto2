@@ -32,24 +32,28 @@
 |
 
 |-->documentos
-
- |-->Entrega 1
  
   |-->Cálculo
   
-  |-->Lógica
+  |-->Algoritmos
   
   |-->Projeto Interdisciplinar
   
   |-->Ética
 
+ |-->Entrega 2
+ 
+  |-->Cálculo
+  
+  |-->Algoritmos
+  
+  |-->Ética
+  
 |-->imagens
 
 |-->src
 
  |-->Entrega 1
-
-   |-->Backend
 
   |-->Frontend
   
