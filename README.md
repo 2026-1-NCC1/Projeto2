@@ -18,8 +18,7 @@
 
 <p align="center">
 <img src="https://images.pexels.com/photos/37385820/pexels-photo-37385820.png" alt="NOME DO JOGO" border="0">
-  Game by OverHeat <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
-</p>
+  Game by OverHeat 
 
 
    Dungeon Chef: Sabores do Caos é um jogo de gestão de restaurante ambientado numa dungeon medieval fantástica, onde o jogador controla um jovem cozinheiro que precisa atender uma clientela caótica — goblins impacientes, dragões letais, magos exigentes e cavaleiros problemáticos. O gameplay gira em torno de três pilares: gerenciar recursos e tempo, combinar ingredientes mágicos para criar pratos com efeitos especiais, e tomar decisões de risco com ingredientes instáveis que podem causar consequências imprevisíveis em cadeia por todo o restaurante.
