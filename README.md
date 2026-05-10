@@ -93,7 +93,7 @@ Aqui estão as referências usadas no projeto.
 1. <https://github.com/fecaphub/Template_PI>
 2. https://docs.unity3d.com/6000.0/Documentation/Manual/UnityManual.html
 3. <https://www.youtube.com/watch?v=yIaAE9bLxXI>
-4. <https://chooser-beta.creativecommons.org/>
-5. <https://freesound.org/>
-6. <https://www.toptal.com/developers/gitignore>
-7. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+4. <https://odsbrasil.gov.br/ >
+5. <https://g1.globo.com/trabalho-e-carreira/noticia/2026/01/26/brasil-tem-mais-de-546-mil-afastamentos-por-saude-mental-em-2025-e-bate-recorde-pela-segunda-vez-em-10-anos.ghtml >
+6. <https://www.bbc.com/news/articles/cglk8wl3lylo >
+7. <]https://github.com/2024-1-MCC1/Projeto11>
