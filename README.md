@@ -59,6 +59,17 @@
   
    | ProjetoPI
 
+## 🛠 Instalação
+
+## Windows:
+
+Não há instalação! Apenas executável! Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+
+Coloque código do prompt de comnando se for necessário
+## HTML:
+
+Não há instalação! Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+
 ## 💻 Configuração para Desenvolvimento
 
 Para abrir este projeto você necessita das seguintes ferramentas:
