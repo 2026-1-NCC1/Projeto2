@@ -69,6 +69,8 @@ Não há instalação! Apenas executável! Encontre o JOGO.exe na pasta executá
 
 Não há instalação! Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
+https://barbo0ssa.itch.io/dungeon-chef
+
 ## 💻 Configuração para Desenvolvimento
 
 Para abrir este projeto você necessita das seguintes ferramentas:
